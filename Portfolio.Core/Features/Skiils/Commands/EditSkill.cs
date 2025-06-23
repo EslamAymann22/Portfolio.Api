@@ -48,8 +48,7 @@ namespace Portfolio.Core.Features.Skiils.Commands
 
             var tags = await _portfolioDb.Tags
                 .Where(T => T.SkillId == request.SkillId).ToListAsync(cancellationToken);
-            foreach (var tag in tags)
-                _portfolioDb.Tags.Remove(tag);
+            _portfolioDb.Tags.RemoveRange(tags);
 
             foreach (var tagName in request.Tags)
             {

@@ -12,19 +12,19 @@ namespace Portfolio.Core.Features.Skiils.Queries
         public IEnumerable<string> Tags { get; set; } = new List<string>();
     }
 
-    public class GetAllSkills : IRequest<BaseResponse<IEnumerable<GetAllSkillsDto>>>
+    public class GetAllSkillsModel : IRequest<BaseResponse<IEnumerable<GetAllSkillsDto>>>
     {
         public int PortfolioId { get; set; }
     }
 
-    public class GetAllSkillsHandler : BaseResponseHandler, IRequestHandler<GetAllSkills, BaseResponse<IEnumerable<GetAllSkillsDto>>>
+    public class GetAllSkillsHandler : BaseResponseHandler, IRequestHandler<GetAllSkillsModel, BaseResponse<IEnumerable<GetAllSkillsDto>>>
     {
         private readonly PortfolioDbContext _portfolioDb;
         public GetAllSkillsHandler(PortfolioDbContext portfolioDb)
         {
             _portfolioDb = portfolioDb;
         }
-        public async Task<BaseResponse<IEnumerable<GetAllSkillsDto>>> Handle(GetAllSkills request, CancellationToken cancellationToken)
+        public async Task<BaseResponse<IEnumerable<GetAllSkillsDto>>> Handle(GetAllSkillsModel request, CancellationToken cancellationToken)
         {
             var portfolio = await _portfolioDb.Users.FindAsync(request.PortfolioId);
             if (portfolio is null)

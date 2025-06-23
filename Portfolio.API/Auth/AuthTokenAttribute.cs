@@ -29,32 +29,3 @@ namespace Portfolio.API.Auth
         }
     }
 }
-
-
-
-
-
-
-
-public class StaticTokenAttribute : Attribute, IAsyncActionFilter
-{
-    public async Task OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
-    {
-        var request = context.HttpContext.Request;
-        var config = context.HttpContext.RequestServices.GetService(typeof(IConfiguration)) as IConfiguration;
-
-        var expectedToken = config["Auth:StaticToken"];
-        var providedToken = request.Headers["Authorization"].FirstOrDefault()?.Replace("Bearer ", "");
-
-        if (string.IsNullOrEmpty(providedToken) || providedToken != expectedToken)
-        {
-            context.Result = new UnauthorizedResult();
-            return;
-        }
-
-        await next();
-    }
-}
-
-
-

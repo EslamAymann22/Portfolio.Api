@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
+using Portfolio.Core;
 using Portfolio.Data.Data;
-using System.Reflection;
 
 namespace Portfolio.API
 {
@@ -20,8 +20,8 @@ namespace Portfolio.API
             builder.Services.AddDbContext<PortfolioDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-            builder.Services.AddScoped<IHttpContextAccessor, HttpContextAccessor>();
-            builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
+            builder.Services.AddCoreDependencies();
+            builder.Services.AddHttpContextAccessor();
 
 
             var app = builder.Build();

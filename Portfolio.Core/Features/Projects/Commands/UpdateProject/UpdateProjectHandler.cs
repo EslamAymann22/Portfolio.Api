@@ -22,21 +22,21 @@ namespace Portfolio.Core.Features.Projects.Commands.UpdateProject
     }
     public class UpdateProjectHandler : BaseResponseHandler, IRequestHandler<UpdateProjectModel, BaseResponse<string>>
     {
-        private readonly PortfolioDbContext _dbContext;
+        private readonly PortfolioDbContext _portfolioDb;
         private readonly IHttpContextAccessor _httpContextAccessor;
 
         public UpdateProjectHandler(PortfolioDbContext dbContext, IHttpContextAccessor httpContextAccessor)
         {
-            this._dbContext = dbContext;
+            this._portfolioDb = dbContext;
             this._httpContextAccessor = httpContextAccessor;
         }
 
         public async Task<BaseResponse<string>> Handle(UpdateProjectModel request, CancellationToken cancellationToken)
         {
-            var portfolio = _dbContext.Users.Find(request.PortfolioId);
+            var portfolio = _portfolioDb.Users.Find(request.PortfolioId);
             if (portfolio is null)
                 return Failed<string>(System.Net.HttpStatusCode.NotFound, "Portfolio not found");
-            var project = _dbContext.Projects.Find(request.ProjectId);
+            var project = _portfolioDb.Projects.Find(request.ProjectId);
             if (project is null)
                 return Failed<string>(System.Net.HttpStatusCode.NotFound, "Project not found");
             if (project.PortfolioUserId != request.PortfolioId)
@@ -60,13 +60,35 @@ namespace Portfolio.Core.Features.Projects.Commands.UpdateProject
                 GitHubUrl = request.GitHubUrl,
                 LiveUrl = request.LiveUrl,
                 PhotoUrl = NewPhotoUrl,
-                Tools = request.Tools,
                 PortfolioUserId = request.PortfolioId,
                 IsTop = request.IsTop
             };
 
-            _dbContext.Projects.Update(updatedProject);
-            var result = await _dbContext.SaveChangesAsync(cancellationToken);
+
+
+            _portfolioDb.Projects.Update(updatedProject);
+            var result = await _portfolioDb.SaveChangesAsync(cancellationToken);
+
+            var toolsToRemove = _portfolioDb.Tools.Where(t => t.ProjectId == request.ProjectId).ToList();
+            _portfolioDb.Tools.RemoveRange(toolsToRemove);
+
+            int ProjectId = _portfolioDb.Projects.Where(P => P.Name == request.Name && P.PortfolioUserId == request.PortfolioId).Select(P => P.Id).FirstOrDefault();
+
+            // Add Tools
+
+            foreach (var tool in request.Tools)
+            {
+                _portfolioDb.Tools.Add(new Tool
+                {
+                    Name = tool,
+                    ProjectId = ProjectId
+                });
+            }
+            var resultTools = await _portfolioDb.SaveChangesAsync(cancellationToken);
+            if (resultTools <= 0)
+                return Failed<string>(System.Net.HttpStatusCode.InternalServerError, "Failed to add tools to project");
+
+
 
             if (result > 0) return Updated("Project updated successfully");
             return Failed<string>(System.Net.HttpStatusCode.InternalServerError, "Failed to update project");

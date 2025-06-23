@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2TIxXEuGMoOkTY+1xZKdPIHzfHL+1+cC+ERWRyhFcpw=",
+  "Hash": "I2mjwDCa/i7/3JUBa98poasfOe3piKuYrPLEjZ9i2WA=",
   "Source": "Portfolio.API",
   "BasePath": "_content/Portfolio.API",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "Portfolio.API\\wwwroot",
       "Source": "Portfolio.API",
-      "ContentRoot": "C:\\Users\\hhhh\\Desktop\\Fas7ni\\fas7ni-backend\\Portfolio.API\\Portfolio.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hhhh\\Desktop\\Portfolio.Api\\Portfolio.API\\wwwroot\\",
       "BasePath": "_content/Portfolio.API",
       "Pattern": "**"
     }
