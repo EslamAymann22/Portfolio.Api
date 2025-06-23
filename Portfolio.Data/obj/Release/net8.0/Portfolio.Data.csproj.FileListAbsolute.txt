@@ -1,0 +1,13 @@
+C:\Users\hhhh\Desktop\Portfolio.Api\Portfolio.Data\bin\Release\net8.0\Portfolio.Data.deps.json
+C:\Users\hhhh\Desktop\Portfolio.Api\Portfolio.Data\bin\Release\net8.0\Portfolio.Data.dll
+C:\Users\hhhh\Desktop\Portfolio.Api\Portfolio.Data\bin\Release\net8.0\Portfolio.Data.pdb
+C:\Users\hhhh\Desktop\Portfolio.Api\Portfolio.Data\obj\Release\net8.0\Portfolio.Data.csproj.AssemblyReference.cache
+C:\Users\hhhh\Desktop\Portfolio.Api\Portfolio.Data\obj\Release\net8.0\Portfolio.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hhhh\Desktop\Portfolio.Api\Portfolio.Data\obj\Release\net8.0\Portfolio.Data.AssemblyInfoInputs.cache
+C:\Users\hhhh\Desktop\Portfolio.Api\Portfolio.Data\obj\Release\net8.0\Portfolio.Data.AssemblyInfo.cs
+C:\Users\hhhh\Desktop\Portfolio.Api\Portfolio.Data\obj\Release\net8.0\Portfolio.Data.csproj.CoreCompileInputs.cache
+C:\Users\hhhh\Desktop\Portfolio.Api\Portfolio.Data\obj\Release\net8.0\Portfolio.Data.sourcelink.json
+C:\Users\hhhh\Desktop\Portfolio.Api\Portfolio.Data\obj\Release\net8.0\Portfolio.Data.dll
+C:\Users\hhhh\Desktop\Portfolio.Api\Portfolio.Data\obj\Release\net8.0\refint\Portfolio.Data.dll
+C:\Users\hhhh\Desktop\Portfolio.Api\Portfolio.Data\obj\Release\net8.0\Portfolio.Data.pdb
+C:\Users\hhhh\Desktop\Portfolio.Api\Portfolio.Data\obj\Release\net8.0\ref\Portfolio.Data.dll

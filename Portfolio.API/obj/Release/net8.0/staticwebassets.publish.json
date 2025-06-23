@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "gUp63QKYO3mW9mLFHOL7gLYSXaZ3G1b77qClSrev5mk=",
+  "Source": "Portfolio.API",
+  "BasePath": "_content/Portfolio.API",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Portfolio.API\\wwwroot",
+      "Source": "Portfolio.API",
+      "ContentRoot": "C:\\Users\\hhhh\\Desktop\\Portfolio.Api\\Portfolio.API\\wwwroot\\",
+      "BasePath": "_content/Portfolio.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}

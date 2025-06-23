@@ -18,7 +18,8 @@ namespace Portfolio.API
             builder.Services.AddSwaggerGen();
 
             builder.Services.AddDbContext<PortfolioDbContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+                //options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer(builder.Configuration.GetConnectionString("PublicConnection")));
 
             builder.Services.AddCoreDependencies();
             builder.Services.AddHttpContextAccessor();
@@ -47,7 +48,7 @@ namespace Portfolio.API
             #endregion
 
             // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
+            //if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
                 app.UseSwaggerUI();
