@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\hhhh\\Desktop\\Portfolio.Api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{278C5B08-4C64-4EC7-8483-1FDACAF57194}|Portfolio.Core\\Portfolio.Core.csproj|c:\\users\\hhhh\\desktop\\portfolio.api\\portfolio.core\\features\\skiils\\commands\\deleteskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{278C5B08-4C64-4EC7-8483-1FDACAF57194}|Portfolio.Core\\Portfolio.Core.csproj|solutionrelative:portfolio.core\\features\\skiils\\commands\\deleteskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{278C5B08-4C64-4EC7-8483-1FDACAF57194}|Portfolio.Core\\Portfolio.Core.csproj|c:\\users\\hhhh\\desktop\\portfolio.api\\portfolio.core\\helper\\checkportfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{278C5B08-4C64-4EC7-8483-1FDACAF57194}|Portfolio.Core\\Portfolio.Core.csproj|solutionrelative:portfolio.core\\helper\\checkportfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{278C5B08-4C64-4EC7-8483-1FDACAF57194}|Portfolio.Core\\Portfolio.Core.csproj|c:\\users\\hhhh\\desktop\\portfolio.api\\portfolio.core\\features\\links\\commands\\addlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{278C5B08-4C64-4EC7-8483-1FDACAF57194}|Portfolio.Core\\Portfolio.Core.csproj|solutionrelative:portfolio.core\\features\\links\\commands\\addlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{278C5B08-4C64-4EC7-8483-1FDACAF57194}|Portfolio.Core\\Portfolio.Core.csproj|c:\\users\\hhhh\\desktop\\portfolio.api\\portfolio.core\\features\\skiils\\commands\\editskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{278C5B08-4C64-4EC7-8483-1FDACAF57194}|Portfolio.Core\\Portfolio.Core.csproj|solutionrelative:portfolio.core\\features\\skiils\\commands\\editskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{278C5B08-4C64-4EC7-8483-1FDACAF57194}|Portfolio.Core\\Portfolio.Core.csproj|c:\\users\\hhhh\\desktop\\portfolio.api\\portfolio.core\\features\\skiils\\commands\\addskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{278C5B08-4C64-4EC7-8483-1FDACAF57194}|Portfolio.Core\\Portfolio.Core.csproj|solutionrelative:portfolio.core\\features\\skiils\\commands\\addskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{278C5B08-4C64-4EC7-8483-1FDACAF57194}|Portfolio.Core\\Portfolio.Core.csproj|c:\\users\\hhhh\\desktop\\portfolio.api\\portfolio.core\\features\\skiils\\queries\\getallskills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{278C5B08-4C64-4EC7-8483-1FDACAF57194}|Portfolio.Core\\Portfolio.Core.csproj|solutionrelative:portfolio.core\\features\\skiils\\queries\\getallskills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{278C5B08-4C64-4EC7-8483-1FDACAF57194}|Portfolio.Core\\Portfolio.Core.csproj|c:\\users\\hhhh\\desktop\\portfolio.api\\portfolio.core\\features\\projects\\commands\\addproject\\addprojecthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{278C5B08-4C64-4EC7-8483-1FDACAF57194}|Portfolio.Core\\Portfolio.Core.csproj|solutionrelative:portfolio.core\\features\\projects\\commands\\addproject\\addprojecthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +62,85 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddLink.cs",
+              "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\Portfolio.Api\\Portfolio.Core\\Features\\Links\\Commands\\AddLink.cs",
+              "RelativeDocumentMoniker": "Portfolio.Core\\Features\\Links\\Commands\\AddLink.cs",
+              "ToolTip": "C:\\Users\\hhhh\\Desktop\\Portfolio.Api\\Portfolio.Core\\Features\\Links\\Commands\\AddLink.cs",
+              "RelativeToolTip": "Portfolio.Core\\Features\\Links\\Commands\\AddLink.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwCoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T09:12:09.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CheckPortfolio.cs",
+              "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\Portfolio.Api\\Portfolio.Core\\Helper\\CheckPortfolio.cs",
+              "RelativeDocumentMoniker": "Portfolio.Core\\Helper\\CheckPortfolio.cs",
+              "ToolTip": "C:\\Users\\hhhh\\Desktop\\Portfolio.Api\\Portfolio.Core\\Helper\\CheckPortfolio.cs",
+              "RelativeToolTip": "Portfolio.Core\\Helper\\CheckPortfolio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T09:11:04.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DeleteSkill.cs",
+              "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\Portfolio.Api\\Portfolio.Core\\Features\\Skiils\\Commands\\DeleteSkill.cs",
+              "RelativeDocumentMoniker": "Portfolio.Core\\Features\\Skiils\\Commands\\DeleteSkill.cs",
+              "ToolTip": "C:\\Users\\hhhh\\Desktop\\Portfolio.Api\\Portfolio.Core\\Features\\Skiils\\Commands\\DeleteSkill.cs",
+              "RelativeToolTip": "Portfolio.Core\\Features\\Skiils\\Commands\\DeleteSkill.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwCYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T08:53:13.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditSkill.cs",
+              "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\Portfolio.Api\\Portfolio.Core\\Features\\Skiils\\Commands\\EditSkill.cs",
+              "RelativeDocumentMoniker": "Portfolio.Core\\Features\\Skiils\\Commands\\EditSkill.cs",
+              "ToolTip": "C:\\Users\\hhhh\\Desktop\\Portfolio.Api\\Portfolio.Core\\Features\\Skiils\\Commands\\EditSkill.cs",
+              "RelativeToolTip": "Portfolio.Core\\Features\\Skiils\\Commands\\EditSkill.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAgwEMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T08:43:07.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddSkill.cs",
+              "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\Portfolio.Api\\Portfolio.Core\\Features\\Skiils\\Commands\\AddSkill.cs",
+              "RelativeDocumentMoniker": "Portfolio.Core\\Features\\Skiils\\Commands\\AddSkill.cs",
+              "ToolTip": "C:\\Users\\hhhh\\Desktop\\Portfolio.Api\\Portfolio.Core\\Features\\Skiils\\Commands\\AddSkill.cs",
+              "RelativeToolTip": "Portfolio.Core\\Features\\Skiils\\Commands\\AddSkill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T08:02:41.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetAllSkills.cs",
+              "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\Portfolio.Api\\Portfolio.Core\\Features\\Skiils\\Queries\\GetAllSkills.cs",
+              "RelativeDocumentMoniker": "Portfolio.Core\\Features\\Skiils\\Queries\\GetAllSkills.cs",
+              "ToolTip": "C:\\Users\\hhhh\\Desktop\\Portfolio.Api\\Portfolio.Core\\Features\\Skiils\\Queries\\GetAllSkills.cs",
+              "RelativeToolTip": "Portfolio.Core\\Features\\Skiils\\Queries\\GetAllSkills.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAkwCoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T07:53:15.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AddProjectHandler.cs",
               "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\Portfolio.Api\\Portfolio.Core\\Features\\Projects\\Commands\\AddProject\\AddProjectHandler.cs",
               "RelativeDocumentMoniker": "Portfolio.Core\\Features\\Projects\\Commands\\AddProject\\AddProjectHandler.cs",
@@ -51,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "UpdateProjectHandler.cs",
               "DocumentMoniker": "C:\\Users\\hhhh\\Desktop\\Portfolio.Api\\Portfolio.Core\\Features\\Projects\\Commands\\UpdateProject\\UpdateProjectHandler.cs",
               "RelativeDocumentMoniker": "Portfolio.Core\\Features\\Projects\\Commands\\UpdateProject\\UpdateProjectHandler.cs",
@@ -59,8 +161,7 @@
               "RelativeToolTip": "Portfolio.Core\\Features\\Projects\\Commands\\UpdateProject\\UpdateProjectHandler.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAASwD4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T20:24:02.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T20:24:02.554Z"
             }
           ]
         }
